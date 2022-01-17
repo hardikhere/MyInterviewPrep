@@ -1,16 +1,25 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "lib": ["esnext", "dom"],
     "module": "commonjs",
     "moduleResolution": "node",
-    "strict": true,
-    "jsx": "react",
-    "allowJs": true,
-    "sourceMap": true,
-    "inlineSources": true,
-    "types": ["node"],
     "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true
-  }
+    "allowJs": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false
+  },
+  "include": [
+    "src/**/*",
+    "__tests__/**/*"
+  ]
 }
