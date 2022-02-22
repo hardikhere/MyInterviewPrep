@@ -10,6 +10,7 @@ export function twoSumNaive(nums: number[], target: number): number[] {
     return [-1];
 };
 
+// Two pass, O(N) time, O(N) space
 export function twoSumBetter(nums: number[], target: number) {
     const hashMap = new Map<number, number>();
     nums.forEach((val, index) => {
